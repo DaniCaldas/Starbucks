@@ -11,7 +11,12 @@
 <body>
     <div id="circle" class="circle"></div>
     <nav>
-        <img src="images/logo.png" alt="logo">
+        <picture>
+            <source media="(max-width:496px )" srcset="images/logo-p.png">
+            <source media="(max-width:630px )" srcset="images/logo-m.png">
+            <img src="images/logo.png" alt="logo">
+        </picture>
+        
         <ul>
             <li>
                 <p>Home</p>
@@ -45,8 +50,12 @@
             </picture>
             
             <ul>
-                <li><img src="images/instagram.png" alt=""></li>
-                <li><img src="images/facebook.png" alt=""></li>
+                <li>
+                <img src="images/instagram.png" alt="">
+                </li>
+                <li>
+                <img src="images/facebook.png" alt="">
+                </li>
                 <li><img src="images/twitter.png" alt=""></li>
             </ul>
         </section>
